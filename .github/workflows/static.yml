@@ -1,35 +1,22 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="https://base44.com/logo_v2.svg" />
-    <!-- iOS 15–26.6 / Android 14–18 / Wearables / Foldables compatible viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-visual, width=device-width, minimum-scale=0.4, maximum-scale=5.0" />
-    <!-- PWA / Mobile App meta -->
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Corevanta" />
-    <meta name="application-name" content="Corevanta" />
-    <meta name="theme-color" content="#020205" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#020205" />
-    <!-- Prevent phone number detection (iOS) -->
-    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
-    <!-- iOS 15–26.6 - Dynamic Island & notch safe area -->
-    <meta name="apple-touch-fullscreen" content="yes" />
-    <!-- v8.3.0 — Wearable device support (Apple Watch, Pixel Watch) -->
-    <meta name="wearable-app-capable" content="yes" />
-    <meta name="watchos-app-capable" content="yes" />
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="apple-touch-icon" href="https://base44.com/logo_v2.svg" />
-    <title>Corevanta</title>
-    <!-- Noto Sans Syriac font for Assyrian script support -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Corevanta</title>
+<style>
+  body{margin:0;font-family:sans-serif;background:#020205;color:white;display:flex;align-items:center;justify-content:center;height:100vh;flex-direction:column}
+  a{background:white;color:black;padding:16px 32px;border-radius:12px;text-decoration:none;font-weight:bold;font-size:18px}
+</style>
+</head>
+<body>
+  <h1>Corevanta</h1>
+  <p>اضغط للدخول للتطبيق</p>
+  <a href="">فتح التطبيق 🚀</a>
+  
+  <script>
+    // يحول تلقائياً بعد ثانيتين
+    setTimeout(()=>{ window.location.href="https://corevanta-dev202730493873.base44.app/login?from_url=https%3A%2F%2Fcorevanta-dev202730493873.base44.app%2F" }, 2000);
+  </script>
+</body>
 </html>
